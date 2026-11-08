@@ -33,11 +33,12 @@ Then measure the approaches fairly (accuracy, macro-F1, confusion matrix, speed)
 - Everything runs on an ordinary **CPU-only laptop**, with no GPU.
 - Use **small subsets** of the data, for example 2,000 training and 500 test examples.
 - Expected effort: about **4–6 hours**.
-- Work in **one Jupyter notebook** (Google Colab or Kaggle also work).
+- Write **plain Python scripts** and run them from the terminal (`python my_script.py`). No Jupyter needed. Save plots as image files and tables as CSV files.
 
 ## What you hand in
 
-- A notebook that runs top to bottom without errors.
+- A set of Python scripts that run end to end without errors (ideally started by a single `python run_all.py`).
+- A short `REPORT.md` with your hypothesis, analysed errors and results.
 - A results table comparing the approaches.
 - A short recommendation (≤ 150 words): which approach would you deploy, and why?
 - A 5-minute walkthrough at the next club session.
