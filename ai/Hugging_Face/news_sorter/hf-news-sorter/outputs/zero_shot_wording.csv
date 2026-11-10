@@ -1,0 +1,9 @@
+Label variant,Template,Accuracy,Sec / 100
+3 specific,news,0.74,30.85
+3 specific,default,0.74,23.0
+4 one-word,default,0.69,42.36
+2 descriptive,news,0.685,47.11
+4 one-word,news,0.67,47.69
+2 descriptive,default,0.625,37.11
+1 dataset names,news,0.565,35.84
+1 dataset names,default,0.56,21.5
