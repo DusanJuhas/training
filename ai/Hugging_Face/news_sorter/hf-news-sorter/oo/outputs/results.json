@@ -1,0 +1,16 @@
+{
+  "A - Zero-shot": {
+    "Accuracy": 0.706,
+    "Macro-F1": 0.688,
+    "Sec / 100 texts": 24.95,
+    "Training time (s)": 0.0,
+    "Labelled examples": 0
+  },
+  "B - Embeddings + LR": {
+    "Accuracy": 0.85,
+    "Macro-F1": 0.852,
+    "Sec / 100 texts": 1.91,
+    "Training time (s)": 34.8,
+    "Labelled examples": 2000
+  }
+}

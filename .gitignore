@@ -1,2 +1,3 @@
 # Python virtual environments
 hf-env/
+__pycache__
