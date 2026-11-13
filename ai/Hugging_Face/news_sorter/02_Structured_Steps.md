@@ -1,7 +1,7 @@
 # Level 2 — Your First Hugging Face NLP Pipeline: Structured Step-by-Step Plan
 
 > This level tells you **what** to do in each step and **what result** to produce.
-> Need more help on *how*? → **Level 3**. Need working code? → **Level 4**.
+> Need more help on *how*? → [**Level 3**](03_Detailed_Beginner_Guide.md). Need working code? → [**Level 4**](04_Reference_Solution.md).
 
 ---
 
@@ -186,4 +186,4 @@ Turn each text into a numeric vector (an embedding), then train a logistic regre
 
 ---
 
-*Need more detail on how to do a step? → **Level 3**.*
+*Need more detail on how to do a step? → [**Level 3**](03_Detailed_Beginner_Guide.md).*

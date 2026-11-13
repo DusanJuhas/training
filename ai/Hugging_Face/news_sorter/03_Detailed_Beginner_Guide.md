@@ -3,7 +3,7 @@
 > This level explains **how** to do every step, assuming you have little or no experience with Python or machine learning.
 > You write **plain Python scripts** and run them from the terminal. No Jupyter is needed.
 > Each step ends with a **✅ Checkpoint**, so you know whether you can move on.
-> Still stuck after reading a step? → The matching section in **Level 4** has the complete, working file.
+> Still stuck after reading a step? → The matching section in [**Level 4**](04_Reference_Solution.md) has the complete, working file.
 
 ---
 
@@ -263,7 +263,7 @@ Your written answers (hypothesis, error explanations, recommendation) go into a 
 ## Recommendation (≤ 150 words)
 ```
 
-`.md` means Markdown: `#` starts a heading, and tables are written with `|` characters. Level 4, section 9 shows a filled-in example.
+`.md` means Markdown: `#` starts a heading, and tables are written with `|` characters. [Level 4](04_Reference_Solution.md), section 9 shows a filled-in example.
 
 ✅ **Checkpoint 2:** `python check_setup.py` prints a `POSITIVE` label with a high score, and `REPORT.md` exists.
 
@@ -786,7 +786,7 @@ def errors_table(test, y_true, preds, labels):
 - `save_confusion` draws a confusion matrix and saves it as a PNG. `plt.close(fig)` frees the memory afterwards.
 - `errors_table` finds every position where the prediction differs from the true label (`np.where(...)`) and returns a table with the index, true class, predicted class and text.
 
-`common.py` is now complete. It should match Level 4, section 1.
+`common.py` is now complete. It should match [Level 4](04_Reference_Solution.md), section 1.
 
 ### 6.2 Create `step4_evaluate.py`
 
@@ -1133,7 +1133,7 @@ Zip the project folder **without `hf-env/`** (it is large and can be recreated a
 
 ### Stretch goals (pick any)
 
-Each stretch goal is one more small script. Level 4, section 11 has complete versions.
+Each stretch goal is one more small script. [Level 4](04_Reference_Solution.md), section 11 has complete versions.
 
 - **Gradio demo (`app.py`):** `pip install gradio`, then wrap your best model in ~15 lines. Start it with `python app.py` and open the printed address in your browser.
 - **Hugging Face Spaces:** publish the Gradio app for free, or `push_to_hub()` your fine-tuned model (needs a free Hugging Face account and access token).
@@ -1171,4 +1171,4 @@ Each stretch goal is one more small script. Level 4, section 11 has complete ver
 
 ---
 
-*Still stuck? → Open **Level 4** for the full reference solution.*
+*Still stuck? → Open [**Level 4**](04_Reference_Solution.md) for the full reference solution.*

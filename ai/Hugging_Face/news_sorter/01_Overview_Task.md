@@ -2,9 +2,9 @@
 
 > **How to use the four levels**
 > - **Level 1 (this file):** the challenge in a nutshell. Try to solve it on your own.
-> - **Level 2:** a structured step-by-step plan, if you want guidance on *what* to do.
-> - **Level 3:** a very detailed walkthrough for beginners, covering *how* to do each step.
-> - **Level 4:** a complete reference solution in Python.
+> - [**Level 2:**](02_Structured_Steps.md) a structured step-by-step plan, if you want guidance on *what* to do.
+> - [**Level 3:**](03_Detailed_Beginner_Guide.md) a very detailed walkthrough for beginners, covering *how* to do each step.
+> - [**Level 4:**](04_Reference_Solution.md) a complete reference solution in Python.
 >
 > Stuck? Go one level deeper, get unblocked, and come back.
 
@@ -51,4 +51,4 @@ Loading datasets from the Hub, using the `pipeline` API, working with sentence e
 
 ---
 
-*Not sure where to start? → Open **Level 2**.*
+*Not sure where to start? → Open [**Level 2**](02_Structured_Steps.md).*

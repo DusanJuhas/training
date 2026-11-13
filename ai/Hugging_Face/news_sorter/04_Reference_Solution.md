@@ -2,8 +2,8 @@
 
 > This is a complete, working solution built from **plain Python scripts**, with no Jupyter required.
 > Each file below is shown in full: create it in your project folder with any text editor, then run it from the terminal.
-> Don't understand a file? → The matching section in **Level 3** explains it line by line.
-> Want to know *why* a step exists? → **Level 2** describes the goal of each step.
+> Don't understand a file? → The matching section in [**Level 3**](03_Detailed_Beginner_Guide.md) explains it line by line.
+> Want to know *why* a step exists? → [**Level 2**](02_Structured_Steps.md) describes the goal of each step.
 
 **Checked with:** Python 3.13, `torch` 2.15, `transformers` 5.22, `accelerate`, `datasets` 5.1, `sentence-transformers` 6.2, `scikit-learn` 1.x. Any Python 3.10+ with recent versions should work.
 **Total runtime on a 4-core laptop CPU:** about 10 min without Step 5, about 25–40 min with Step 5 (the first run is longer because models download).
