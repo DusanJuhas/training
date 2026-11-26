@@ -2,15 +2,22 @@
   "A - Zero-shot": {
     "Accuracy": 0.706,
     "Macro-F1": 0.688,
-    "Sec / 100 texts": 19.2,
+    "Sec / 100 texts": 49.25,
     "Training time (s)": 0.0,
     "Labelled examples": 0
   },
   "B - Embeddings + LR": {
     "Accuracy": 0.85,
     "Macro-F1": 0.852,
-    "Sec / 100 texts": 1.63,
-    "Training time (s)": 29.2,
+    "Sec / 100 texts": 3.91,
+    "Training time (s)": 43.0,
+    "Labelled examples": 2000
+  },
+  "C - Fine-tuned DistilBERT": {
+    "Accuracy": 0.864,
+    "Macro-F1": 0.866,
+    "Sec / 100 texts": 5.12,
+    "Training time (s)": 771.9,
     "Labelled examples": 2000
   }
 }
